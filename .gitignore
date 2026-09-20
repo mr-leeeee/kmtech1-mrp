@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+
+# PyInstaller 빌드 산출물
+build/
+dist/
+*.spec
+
+# 배포 패키지
+*.zip
+
+# 런타임 생성물
+*.log
+*.bak
+backup/
+
+# 임시 분석 파일
+scratch/
+shelf.xlsx
+shelf_analysis.json
+sheets.txt
+shelf_backup_*.xlsx
+
+# 편집기/도구
+.omo/
+.vscode/
+.idea/
